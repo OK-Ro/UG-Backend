@@ -1,0 +1,12 @@
+udt-backend/
+├── config/               # Configuration files (e.g., database, environment variables)
+├── controllers/          # Logic for handling requests (admin, client, deliverer)
+├── middleware/           # Custom middleware (e.g., authentication, validation)
+├── models/               # Database models (admin, client, deliverer, delivery, etc.)
+├── routes/               # API routes (admin, client, deliverer)
+├── services/             # Business logic (e.g., unique code generation, postcode logic)
+├── utils/                # Utility functions (e.g., file upload, postcode generation)
+├── validators/           # Request validation (e.g., using Joi or Express Validator)
+├── .env                  # Environment variables
+├── server.js             # Entry point for the server
+└── package.json          # Project dependencies
